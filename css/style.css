@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+
+body {
+    background-color: #FFCC70;
+}
+
+/* Navbar styles */
+nav.navbar a.navbar-brand,
+nav.navbar button.navbar-toggler {
+    color: #000000; /* White text color */
+}
+
+.navbar span {
+    color: rgb(255, 213, 0);
+}
+
+.navbar-brand {
+    font-family: 'Denk One', sans-serif;
+}
+
+nav.navbar a.nav-link {
+    color: #ffffff !important; /* White text color */
+    margin-left: 100px;
+}
+
+nav.navbar a.nav-link:hover {
+    color: #d3d3d3 !important; /* Lighter text color on hover */
+}
+
+.navbar-toggler {
+    background-color: white;
+    border: white ;
+}
+
+.nav-link {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/* Tambahkan gaya CSS ini ke dalam file style.css atau tambahkan langsung ke dalam tag <style> di dalam <head> HTML */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons .nav-link i {
+    font-size: 24px;
+    color: white;
+    margin-right: 15px;
+}
+
+/* Hover effect */
+.social-icons .nav-link:hover i {
+    color: #ffc107; /* Ganti dengan warna yang diinginkan saat dihover */
+}
+
+
+.ksn {
+    max-width: 100%;
+    height: auto;
+    margin-top: -20px; /* Adjust as needed */
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us {
+    background-color: #ffffff;
+    margin-top: -50px; /* Adjust as needed */
+    text-align: justify; /* Set text alignment to justify */
+    padding: 50px; /* Add padding for better readability */
+}
+
+.about-us p{
+    text-align: center;
+}
+
+footer {
+    background-color: #0000005a;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    footer {
+        position: static;
+    }
+}
+
+
